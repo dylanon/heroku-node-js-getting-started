@@ -4,6 +4,18 @@ A barebones Node.js app using [Express 4](http://expressjs.com/).
 
 Created from Heroku's starter repo, and built upon while following along with [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
 
+## Routes
+
+- ```/``` (root)
+  - Displays landing page for *Getting Started with Node on Heroku*
+- ```/cool```
+  - Displays a [cool ascii face](https://www.npmjs.com/package/cool-ascii-faces)
+- ```/times```
+  - Displays number from 0 to n - 1, where n is a number provided to the application as an environment variable (Heroku config var)
+- ```/db```
+  - Displays a list of ids and names retrieved from an example Postgres database
+
+
 ## Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
